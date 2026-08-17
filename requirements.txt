@@ -1,0 +1,14 @@
+numpy==1.26.4
+pandas==2.3.3
+torch==1.13.0+cu116
+torchvision==0.14.0+cu116
+torchaudio==0.13.0+cu116
+matplotlib==3.9.4
+scikit-learn==1.6.1
+scanpy==1.10.3
+tqdm==4.67.1
+pillow==11.3.0
+h5py==3.14.0
+scipy==1.13.1
+opencv-python==4.12.0.88
+networkx==3.2.1
