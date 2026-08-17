@@ -1,3 +1,8 @@
 # PGFST：A Framework of Multimodal Progressive Graph Fusion for Spatial Domain Identification and Precise Heterogeneity Dissection in Spatial Transcriptomics
 # Overview
+PGFST (Progressive Graph Fusion for Spatial Transcriptomics) is a multimodal graph learning framework for spatial domain identification and spatial heterogeneity analysis. PGFST integrates gene expression, spatial location, and histological information by constructing modality-specific graphs representing gene-expression similarity, spatial proximity, and histomorphological similarity. A progressive graph convolutional encoder sequentially integrates these complementary graph structures, while a differentiable graph decoder reconstructs a shared topology under multi-view constraints. PGFST provides robust spatial domain identification across diverse tissues and spatial transcriptomics platforms.
+# Overview of the repository
+`cascade_gcn.py` implements the progressive graph convolutional model for multimodal representation learning and spatial domain identification. `clustering_visualization.py` visualizes the identified spatial domains using spatial coordinates. `cnn_image_extractor.py` extracts histological image features using ResNet18 and PCA. `config.py` defines data paths and model hyperparameters. `data_preprocessing.py` preprocesses gene-expression, spatial, and histological features. `feature_fusion.py` integrates the three modalities into multimodal node features. `graph_construction.py` constructs modality-specific graphs representing gene-expression similarity, spatial proximity, and histomorphological similarity. `main.py` executes the complete PGFST analysis pipeline.
+
+
 
